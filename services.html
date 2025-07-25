@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services | SST Associates – Financial & Tax Consultants LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body { font-family: 'Roboto', Arial, sans-serif; background: #f8f9fa; color: #222; }
+    h1, h2, h3, .section-title { font-family: 'Montserrat', 'Roboto', Arial, sans-serif; }
+    .glass-navbar {
+      background: rgba(34,58,94,0.85) !important;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 12px rgba(34,58,94,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .navbar-brand, .navbar-nav .nav-link { color: #fff !important; }
+    .navbar-nav .nav-link.active {
+      color: #F4B942 !important;
+      font-weight: bold;
+      border-bottom: 2.5px solid #F4B942;
+      border-radius: 0;
+    }
+    .section-title { margin-top: 60px; margin-bottom: 30px; font-weight: 700; letter-spacing: 1px; color: #223A5E; text-transform: uppercase; }
+    .service-section {
+      background: #fff; border-radius: 0.75rem; box-shadow: 0 2px 12px rgba(34,58,94,0.06); padding: 2rem 1.5rem; margin-bottom: 2rem;
+    }
+    .service-section h3 { color: #2EC4B6; font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem; }
+    .service-section ul { padding-left: 1.2em; }
+    .service-section li { margin-bottom: 0.5em; }
+    .footer {
+      background: #223A5E; color: #fff; padding: 2.5rem 0 1.5rem 0;
+      border-top-left-radius: 2rem; border-top-right-radius: 2rem;
+      margin-top: 4rem;
+    }
+    .footer .footer-links { text-align: left; }
+    .footer .footer-social { text-align: right; }
+    .footer a { color: #F4B942; margin: 0 0.5rem; font-size: 1.3rem; transition: color 0.2s; }
+    .footer a:hover { color: #2EC4B6; }
+    @media (max-width: 767px) {
+      .footer .footer-links, .footer .footer-social { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg glass-navbar sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">SST Associates</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="container mt-5">
+    <h1 class="section-title text-center">Our Services</h1>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-primary text-white text-center rounded-top">
+            <i class="bi bi-graph-up-arrow" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Financial Management</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Financial Modelling</li>
+              <li>Business Valuation</li>
+              <li>Valuation of property (Residential and Commercial)</li>
+              <li>Financial Planning and analysis</li>
+              <li>Feasibility Report</li>
+              <li>Policy and Procedure writing</li>
+              <li>Business advisory</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-success text-white text-center rounded-top">
+            <i class="bi bi-journal-text" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Accounting</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Accounting & Bookkeeping</li>
+              <li>Financial reporting – IFRS, USGAAP</li>
+              <li>Merger & Acquisition</li>
+              <li>Liquidity Management</li>
+              <li>Consolidation</li>
+              <li>Payroll</li>
+              <li>Financial Software Integration</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-warning text-dark text-center rounded-top">
+            <i class="bi bi-shield-check" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Audit & Assurance</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Internal Audit</li>
+              <li>External Audit</li>
+              <li>Risk and compliance Audit</li>
+              <li>Due Diligence Audit</li>
+              <li>Tax Audit</li>
+              <li>Forensic Audit</li>
+              <li>Inventory Audit</li>
+              <li>Information system Audit</li>
+              <li>Fraud detection</li>
+              <li>Liquidation</li>
+              <li>SOP Writing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-danger text-white text-center rounded-top">
+            <i class="bi bi-cash-coin" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Taxation</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>VAT</li>
+              <li>Corporate tax</li>
+              <li>Excise Tax</li>
+              <li>Customs</li>
+              <li>Tax Residence Certificate (TRC)</li>
+              <li>NRI taxation</li>
+              <li>Indian Tax</li>
+              <li>UK And USA tax laws</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-info text-white text-center rounded-top">
+            <i class="bi bi-person-badge" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">CFO-as-a-Service</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Virtual CFO</li>
+              <li>Recruitment Services</li>
+              <li>Administrative Services</li>
+              <li>Anti-Money Laundering (AML)</li>
+              <li>Economic Substance Regulation (ESR)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-secondary text-white text-center rounded-top">
+            <i class="bi bi-building" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Company Incorporation</h3>
+          </div>
+          <div class="card-body">
+            <ul>
+              <li>Business License</li>
+              <li>Main land License</li>
+              <li>Freezone License</li>
+              <li>Offshore License</li>
+              <li>Investor Visa Processing</li>
+              <li>PRO Services</li>
+              <li>Bank account Opening</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card h-100 shadow-sm service-card border-0">
+          <div class="card-header bg-dark text-white text-center rounded-top">
+            <i class="bi bi-currency-exchange" style="font-size:2rem;"></i>
+            <h3 class="h5 mt-2 mb-0">Fundraising Services</h3>
+          </div>
+          <div class="card-body">
+            <p>We offer professional and effective fundraising services for mid-large organizations to help them reach their philanthropic goals. Our approach is personal, and our services are tailored to meet your needs. We have a wide range of experience and specialize in working with small and medium/large sized organizations.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footer-links">
+          <div class="mb-2">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-6 footer-social">
+          <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="#" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <small>&copy; 2024 SST Associates. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 

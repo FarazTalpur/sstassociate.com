@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | SST Associates – Financial & Tax Consultants LLC</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <style>
+    body { font-family: 'Roboto', Arial, sans-serif; background: #f8f9fa; color: #222; }
+    h1, h2, h3, .section-title { font-family: 'Montserrat', 'Roboto', Arial, sans-serif; }
+    .glass-navbar {
+      background: rgba(34,58,94,0.85) !important;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 2px 12px rgba(34,58,94,0.08);
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .navbar-brand, .navbar-nav .nav-link { color: #fff !important; }
+    .navbar-nav .nav-link.active {
+      color: #F4B942 !important;
+      font-weight: bold;
+      border-bottom: 2.5px solid #F4B942;
+      border-radius: 0;
+    }
+    .section-title { margin-top: 60px; margin-bottom: 30px; font-weight: 700; letter-spacing: 1px; color: #223A5E; text-transform: uppercase; }
+    .contact-card {
+      background: #fff; border-radius: 0.75rem; box-shadow: 0 2px 12px rgba(34,58,94,0.06); padding: 2rem 1.5rem; margin-bottom: 2rem;
+    }
+    .contact-info-list { list-style: none; padding: 0; margin: 0 0 1.5rem 0; }
+    .contact-info-list li { margin-bottom: 1rem; display: flex; align-items: center; }
+    .contact-info-list .bi { color: #2EC4B6; font-size: 1.3rem; margin-right: 0.75rem; }
+    .footer {
+      background: #223A5E; color: #fff; padding: 2.5rem 0 1.5rem 0;
+      border-top-left-radius: 2rem; border-top-right-radius: 2rem;
+      margin-top: 4rem;
+    }
+    .footer .footer-links { text-align: left; }
+    .footer .footer-social { text-align: right; }
+    .footer a { color: #F4B942; margin: 0 0.5rem; font-size: 1.3rem; transition: color 0.2s; }
+    .footer a:hover { color: #2EC4B6; }
+    @media (max-width: 767px) {
+      .footer .footer-links, .footer .footer-social { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg glass-navbar sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">SST Associates</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Banner -->
+  <section class="py-5 mb-4" style="background: linear-gradient(90deg, #223A5E 60%, #2EC4B6 100%); color: #fff;">
+    <div class="container text-center">
+      <h1 class="display-5 fw-bold mb-2">Contact SST Associates</h1>
+      <p class="lead mb-0">Let's Start the Conversation</p>
+    </div>
+  </section>
+
+  <section class="container fade-in mb-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-lg-6">
+        <div class="card contact-card border-0 shadow-lg p-4 mb-4">
+          <h2 class="h5 mb-3 text-primary">Connect With Us</h2>
+          <ul class="contact-info-list">
+            <li><i class="bi bi-geo-alt"></i> Office No.514, Sultan Business Centre, Oud Meetha, Dubai, United Arab Emirates</li>
+            <li><i class="bi bi-telephone"></i> <a href="tel:+971559050142">+971 559050142</a> (Phone / WhatsApp)</li>
+            <li><i class="bi bi-envelope"></i> <a href="mailto:sstassociate26@gmail.com">sstassociate26@gmail.com</a></li>
+          </ul>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">Phone</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Your Phone Number">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="4" placeholder="How can we help you?"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+        <div class="card border-0 shadow-sm p-4 mb-4">
+          <h2 class="h6 mb-3 text-success">Business Hours</h2>
+          <ul class="list-unstyled mb-0">
+            <li>Monday – Friday: 9:00 AM – 6:00 PM</li>
+            <li>Saturday: 10:00 AM – 2:00 PM</li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="card border-0 shadow-sm p-4 mb-4">
+          <h2 class="h6 mb-3 text-info">Find Us</h2>
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=600&q=80" alt="Dubai Map" class="img-fluid rounded mb-3">
+          <div class="small text-muted">Office No.514, Sultan Business Centre, Oud Meetha, Dubai, UAE</div>
+        </div>
+        <div class="card border-0 shadow-sm p-4 mb-4">
+          <h2 class="h6 mb-3 text-warning">Frequently Asked Questions</h2>
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq1">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                  How soon will I get a response?
+                </button>
+              </h2>
+              <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">We aim to respond to all inquiries within 1 business day.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq2">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  Do you offer virtual consultations?
+                </button>
+              </h2>
+              <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">Yes, we offer both in-person and virtual consultations to suit your needs.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="faq3">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  What happens after I contact you?
+                </button>
+              </h2>
+              <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">We will schedule a call or meeting to understand your needs and propose the best solutions for your business.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card border-0 shadow-sm p-4 mb-4">
+          <h2 class="h6 mb-3 text-secondary">Why Contact Us?</h2>
+          <p>We believe that strong partnerships begin with real conversations. Whether you're seeking strategic financial guidance, tax solutions, or business advisory support, our team is here to help you achieve your goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 footer-links">
+          <div class="mb-2">
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="services.html">Services</a> |
+            <a href="contact.html">Contact</a>
+          </div>
+        </div>
+        <div class="col-md-6 footer-social">
+          <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="#" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        </div>
+      </div>
+      <small>&copy; 2024 SST Associates. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html> 
