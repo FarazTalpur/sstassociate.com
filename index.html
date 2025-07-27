@@ -70,7 +70,9 @@
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg glass-navbar sticky-top shadow-sm">
     <div class="container">
-      <a class="navbar-brand fw-bold" href="index.html">SST Associates</a>
+              <a class="navbar-brand fw-bold" href="index.html">
+          <img src="images/logo.png" alt="SST Associates" height="60" class="d-inline-block align-text-top">
+        </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -94,7 +96,7 @@
   </nav>
 
   <!-- Hero Section -->
-  <section class="hero" id="home" style="background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80') center/cover no-repeat; position:relative;">
+  <section class="hero" id="home" style="background: url('images/hero.jpg') center 30% / cover no-repeat; position:relative;">
     <div style="background:rgba(34,58,94,0.85);position:absolute;top:0;left:0;right:0;bottom:0;z-index:0;"></div>
     <div class="container hero-content" style="position:relative;z-index:1;">
       <h1 class="display-4 fw-bold">SST Associates – Financial & Tax Consultants LLC</h1>
@@ -185,20 +187,84 @@
   <!-- Testimonials -->
   <section class="container fade-in">
     <h2 class="section-title text-center">Client Testimonials</h2>
-    <div class="row g-4 justify-content-center">
-      <div class="col-md-5">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body">
-            <p class="mb-2">“SST Associates provided invaluable guidance for our business. Their expertise in tax planning saved us both time and money.”</p>
-            <div class="fw-bold">— [Client Name], [Company]</div>
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div id="testimonialsCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"SST Associates provided invaluable guidance for our business. Their expertise in tax planning saved us both time and money."</p>
+                      <div class="fw-bold">— Zebu Iqbal, HELIZEST SOLAR ENERGY System LLC</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"Professional, reliable, and highly knowledgeable. I highly recommend SST Associates for any financial consulting needs."</p>
+                      <div class="fw-bold">— Mehdi, Iconique Gifts LLC</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"Exceptional service and deep understanding of international tax regulations. SST Associates helped us navigate complex compliance requirements with ease."</p>
+                      <div class="fw-bold">— Qurnain Iqbal, YUKON ENERGY TECHNICAL SERVICES LLC</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"Their strategic approach to financial planning transformed our business operations. Highly recommended for any company looking to optimize their financial performance."</p>
+                      <div class="fw-bold">— Gulam Qadir, GHULAM MAHAR FOR FOODSTUFF TRADING LLC</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"The team at SST Associates is incredibly knowledgeable about UAE tax laws. They made our compliance process smooth and stress-free."</p>
+                      <div class="fw-bold">— SANIA JAMALI, S & J REAL ESTATE L.L.C</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow-sm border-0 h-100">
+                    <div class="card-body">
+                      <p class="mb-2">"Outstanding financial modeling and business advisory services. They helped us make informed decisions that significantly improved our bottom line."</p>
+                      <div class="fw-bold">— Huma Talpur, UNIQUE UNIKORN L.L.C-FZ</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
           </div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div class="card shadow-sm border-0 h-100">
-          <div class="card-body">
-            <p class="mb-2">“Professional, reliable, and highly knowledgeable. I highly recommend SST Associates for any financial consulting needs.”</p>
-            <div class="fw-bold">— [Client Name], [Company]</div>
+          
+          <!-- Carousel Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+          
+          <!-- Carousel Indicators -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#testimonialsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
           </div>
         </div>
       </div>
@@ -375,8 +441,8 @@
         </div>
         <div class="col-md-6 footer-social">
           <a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
-          <a href="#" title="Email"><i class="bi bi-envelope"></i></a>
-          <a href="#" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          <a href="mailto:sstassociate26@gmail.com" title="Email"><i class="bi bi-envelope"></i></a>
+          <a href="https://wa.me/971559050142?text=Hi%20SST%20Associates,%20I%20would%20like%20to%20discuss%20your%20services" target="_blank" title="WhatsApp"><i class="bi bi-whatsapp"></i></a>
         </div>
       </div>
       <small>&copy; 2024 SST Associates. All rights reserved.</small>
